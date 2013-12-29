@@ -39,7 +39,7 @@ use parent qw(Plack::App::Proxy);
 sub build_headers_from_env {
     my($self, $env, $req) = @_;
     my $headers = $req->headers->clone;
-    +{%$headers};
+    return +{ %$headers };
 }
 
 
