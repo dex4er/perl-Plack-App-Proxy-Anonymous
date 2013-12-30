@@ -20,7 +20,7 @@ my $build = Module::Build->new(
         'Plack::App::Proxy'     => 0,
     },
     build_requires          => {
-        'Test::More'            => 0,
+        'Test::More'            => 0.88,
     },
     auto_configure_requires => 0,
     create_makefile_pl      => 'traditional',
