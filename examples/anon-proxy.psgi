@@ -1,8 +1,11 @@
 #!/usr/bin/perl -c
 
-# twiggy anon-proxy.psgi
+# starlight anon-proxy.psgi --port=8080 --max-workers=25
 
 use lib '../lib', 'lib';
+
+use strict;
+use warnings;
 
 use Plack::Builder;
 use Plack::App::Proxy::Anonymous;

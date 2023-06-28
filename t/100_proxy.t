@@ -17,7 +17,7 @@ my $app = sub {
     my $h = $req->headers->clone;
     $h->remove_header(qw(Connection Host Referer TE));
     my $body = $h->as_string;
-    return [ 200, [ 'Content-Type' => 'text/plain', 'Content-Length' => length($body) ], [ $body ] ];
+    return [200, ['Content-Type' => 'text/plain', 'Content-Length' => length($body)], [$body]];
 };
 
 test_proxy(
