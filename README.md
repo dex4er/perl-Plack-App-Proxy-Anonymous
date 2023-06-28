@@ -6,7 +6,7 @@
 
 ## NAME
 
-Plack::App::Proxy::Anonymous - anonymous proxy requests
+Plack::App::Proxy::Anonymous - Anonymous proxy requests
 
 ## SYNOPSIS
 

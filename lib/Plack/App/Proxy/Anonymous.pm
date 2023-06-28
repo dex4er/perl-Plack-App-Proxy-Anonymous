@@ -2,7 +2,7 @@ package Plack::App::Proxy::Anonymous;
 
 =head1 NAME
 
-Plack::App::Proxy::Anonymous - anonymous proxy requests
+Plack::App::Proxy::Anonymous - Anonymous proxy requests
 
 =head1 SYNOPSIS
 
